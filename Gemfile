@@ -35,6 +35,7 @@ gem 'jbuilder', '~> 2.5'
 
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.1.0', require: false
+gem 'devise', '~> 4.4', '>= 4.4.3'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
@@ -43,6 +44,7 @@ group :development, :test do
   gem 'cucumber-rails', '~> 1.6', require: false
   gem 'shoulda-matchers', git: 'https://github.com/thoughtbot/shoulda-matchers.git', branch: 'rails-5'
   gem 'factory_bot_rails', '~> 4.10'
+  gem 'email_spec', '~> 2.2'
 end
 
 group :development do
